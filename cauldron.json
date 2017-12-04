@@ -5,17 +5,17 @@
       "platforms": [
         {
           "name": "android",
-          "config":{
-               "containerGenerator":{
-                  "containerVersion":"1.0.1",
-                  "publishers":[
-                     {
-                        "name":"github",
-                        "url":"https://github.com/Jupneet/dotimely-android-container.git"
-                     }
-                  ]
-               }
-            },
+          "config": {
+            "containerGenerator": {
+              "containerVersion": "1.0.1",
+              "publishers": [
+                {
+                  "name": "github",
+                  "url": "https://github.com/Jupneet/dotimely-android-container.git"
+                }
+              ]
+            }
+          },
           "versions": [
             {
               "name": "1.0.1",
@@ -32,6 +32,28 @@
               ],
               "miniApps": {
                 "MovieListMiniApp": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "dotimely",
+      "platforms": [
+        {
+          "name": "android",
+          "versions": [
+            {
+              "name": "0.0.1",
+              "ernPlatformVersion": "0.10.2",
+              "isReleased": false,
+              "binary": null,
+              "yarnlock": null,
+              "nativeDeps": [],
+              "miniApps": {
+                "container": [],
+                "codePush": []
               }
             }
           ]
