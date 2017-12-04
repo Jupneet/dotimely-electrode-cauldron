@@ -1,44 +1,6 @@
 {
   "nativeApps": [
     {
-      "name": "DoTimelyy",
-      "platforms": [
-        {
-          "name": "android",
-          "config": {
-            "containerGenerator": {
-              "containerVersion": "1.0.1",
-              "publishers": [
-                {
-                  "name": "github",
-                  "url": "https://github.com/Jupneet/dotimely-android-container.git"
-                }
-              ]
-            }
-          },
-          "versions": [
-            {
-              "name": "1.0.1",
-              "ernPlatformVersion": "1.10.2",
-              "isReleased": false,
-              "binary": null,
-              "yarnlock": null,
-              "nativeDeps": [
-                "react-native@0.42.0",
-                "react-native-electrode-bridge@1.5.0",
-                "react-native-ern-weather-api@0.19.0",
-                "react-native-vector-icons@4.0.0",
-                "react-native-code-push@1.17.1-beta"
-              ],
-              "miniApps": {
-                "MovieListMiniApp": []
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "dotimely",
       "platforms": [
         {
