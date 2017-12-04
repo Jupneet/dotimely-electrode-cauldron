@@ -1,0 +1,26 @@
+{
+  "nativeApps": [
+    {
+      "name": "DoTimely",
+      "platforms": [
+        {
+          "name": "android",
+          "versions": [
+            {
+              "name": "1.0.0",
+              "ernPlatformVersion": "0.10.2",
+              "isReleased": false,
+              "binary": null,
+              "yarnlock": null,
+              "nativeDeps": [],
+              "miniApps": {
+                "container": [],
+                "codePush": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
