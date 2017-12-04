@@ -19,7 +19,7 @@
           "versions": [
             {
               "name": "1.0.1",
-              "ernPlatformVersion": "0.10.2",
+              "ernPlatformVersion": "1.10.2",
               "isReleased": true,
               "binary": null,
               "yarnlock": null,
