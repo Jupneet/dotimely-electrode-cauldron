@@ -20,7 +20,7 @@
             {
               "name": "1.0.1",
               "ernPlatformVersion": "1.10.2",
-              "isReleased": true,
+              "isReleased": false,
               "binary": null,
               "yarnlock": null,
               "nativeDeps": [
